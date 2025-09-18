@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Preguntas escritas</h1>
+    <h4>Pregunta 1</h4>
+    <p><b>¿Cuál es la diferencia entre var, let y const en JavaScript? Proporciona un ejemplo de cada uno.</b></p>
+    <p style="width: 800px">Una de las diferencias es el scope de cada uno, siendo su accesibilidad distinta. Ademas, con var se puede redeclarar y reasignar, mientras que con let solo se puede reasignar mas no redeclarar y const no se puede hacer ninguna de estas</p>
+    <p>
+        <b>Ejemplos:</b> <br>
+        var nombre = "Arnold" <br>
+        let pais = "Guatemala" <br>
+        const PI = 3.1416 
+    </p>
+
+    <h4>Pregunta 2</h4>
+    <div style="display:flex; gap: 30px;">
+        <p>
+        let a = 42;  <br>
+        let b = "Hola mundo"; <br>
+        let c = true; <br>
+        let d = null; <br>
+        let e = undefined; <br>
+        let f = [1, 2, 3]; <br>
+        let g = {nombre: "Juan"}; <br>
+        </p>
+        <p>
+        a: number <br>
+        b: string <br>
+        c: boolean <br>
+        d: object <br>
+        e: undefined <br>
+        f: array <br>
+        g: object
+        </p>
+    </div>
+
+    <h4>(Resultados de las preguntas 3-10 en consola)</h4>
+    <h4>Pregunta 7</h4>
+<button id="boton">Pregunta 7</button>
+<div id="mensaje"></div>
+<p id="explicacion" style="display:none"><b>Explicacion:</b> lo que hace el codigo es "escuchar" el evento click del boton, si se clickea lo que hace es desplegar este mensaje <br>
+ademas obtiene los elementos html por medio de su id</p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
